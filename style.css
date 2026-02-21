@@ -1,0 +1,76 @@
+body {
+
+  margin: 0;
+  font-family: 'Gloock', serif;
+
+  background-color: #2b3a67;
+  color: #f0e5d8;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100dvh;
+  width: 100vw;
+
+}
+
+.container {
+
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+}
+
+.page-container,
+.result-container,
+.resources-container,
+.instructions-container {
+
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  opacity: 0;
+  visibility: hidden;
+
+}
+
+.active {
+
+  opacity: 1;
+  visibility: visible;
+
+}
+
+.window-button {
+
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+
+  cursor: pointer;
+
+}
+
+.close {
+
+  background-color: #8b3a3a;
+
+}
+
+.minimize {
+
+  background-color: #d6b35f;
+
+}
+
+.fullscreen {
+
+  background-color: #28c93f;
+
+}
